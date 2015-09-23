@@ -4,6 +4,9 @@ Static ipmitool binary for ESXi execution
 ## Purpose
 I realize it's pretty shady to download and execute a stranger compiled file, but I promise it's a clean, functioning standalone version of ipmitool. My iDRACs locked me out on my ESXi hosts so I needed a way to send them a cold reset. Hopefully this saves you time/hassle.
 
+You could also build it yourself quickly with Docker 
+https://github.com/ewen-naos-nz/docker-build-static-ipmitool
+
 ipmitool to the rescue...
 
 I ended up creating a CentOS 4.8 VM to create this and overall it took me a couple hours to fully complete after all was said and done. I'm uploading to save someone else the time/hassle of doing it yourself. 
